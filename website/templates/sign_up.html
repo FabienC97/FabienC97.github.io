@@ -1,5 +1,6 @@
 {% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
 content %}
+<div class="container">
 <form method="POST">
   <br>
   <h3 align="center">Sign Up</h3>
@@ -53,11 +54,10 @@ content %}
     <option value="Comedy">Comedy</option>
     <option value="Drama">Drama</option>
   </select>
-    <script src="./static/Custom_menu.js"></script>
-    <link rel="stylesheet" href="./static/style.css">
+    <script src="./static/index.js"></script>
   <br />
   <br>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
+</div>
 {% endblock %}

@@ -5,7 +5,7 @@
   body {
     font-family: "Roboto", sans-serif;
   }
-  
+
   .menu-list {
     display: flex;
     list-style: none;
@@ -44,26 +44,20 @@
     cursor: pointer;
     transition: 1s ease all;
   }
-  
-  .sidebar {
-    width: 50px;
-    height: 100%;
-    background-color: black;
-    position: fixed;
-    top: 0;
+   
+  .container{
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
   }
 
-  
-  .form_container {
-    background-color: #151515;
+  .base-container {
+    background-color: #4dbf00;
     min-height: calc(100vh);
     color: white;
   }
-  
+
   .content-container {
     margin-left: 0px;
     background-color: #151515;
@@ -74,12 +68,14 @@
   .featured-content {
     height: 40vh;
     padding: 50px;
-  }
+    background-size: cover;
+   }
 
   .featured-title {
     width: 350px;
     font-size: 42px;
     font-weight: bold;
+    color: azure;
   }
   
   .featured-desc {
@@ -99,7 +95,7 @@
   }
   
   .movie-list-container {
-    padding: 0 20px;
+    padding: 0 30px;
   }
   
   .movie-list-wrapper {
@@ -121,7 +117,7 @@
   }
   
   .movie-list-item:hover .movie-list-item-img {
-    transform: scale(1.2);
+    transform: scale(1.1);
     margin: 0 30px;
     opacity: 0.5;
   }
