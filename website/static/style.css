@@ -6,7 +6,6 @@
     font-family: "Roboto", sans-serif;
   }
   
-  
   .menu-list {
     display: flex;
     list-style: none;
@@ -61,24 +60,26 @@
   
   .form_container {
     background-color: #151515;
-    height: calc(100vh);
+    min-height: calc(100vh);
     color: white;
   }
   
   .content-container {
     margin-left: 0px;
     background-color: #151515;
-    height: calc(100vh);
-    color: white;
+    min-height: calc(100vh);
+    color: #BAB8BA;
   }
   
   .featured-content {
-    height: 45vh;
+    height: 40vh;
     padding: 50px;
   }
 
   .featured-title {
-    width: 200px;
+    width: 350px;
+    font-size: 42px;
+    font-weight: bold;
   }
   
   .featured-desc {
